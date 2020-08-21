@@ -36,6 +36,12 @@ Add the provided base-configuration file cgenie.eb_go_gs_ac_bg_sg_rg_gl.worbe2_O
 Add the provided user-configuration files to $HOME/cgenie.muffin/genie-userconfigs
 Add the provided forcing folder worbe2.FpCO2_Fp13CO2.detplusopalSED_year2 to $HOME/cgenie.muffin/genie-forcings
 
+### addition of an updated reef mask for the present-day ########
+
+An updated reef mask for the present-day ocean is provided, based on ETOPO5 bathymetry dataset. A detailed description and test configurations are described in GRID.txt.
+
+To run the spin-ups and simulations presented in Adloff et al. 2020, add the provided reef mask worbe2.190813.reefmask.36x36, worbe2.190813.depth.36x36 and worbe2.190813.sedcoremask.36x36 to $HOME/cgenie.muffin/genie-sedgem/data/input/
+
 ### model experiments -- spinups ################################
 
 All experiments are run from:
